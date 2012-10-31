@@ -16,10 +16,6 @@ Plugin::setInfos(array(
 
 //The filter
 Filter::add("multi_filter", 'multi_filter'.'/filters/multi_filter.php');
-//Filter::add("php_filter", 'multi_filter'.'/filters/php_filter.php');
-Filter::add("pre_filter", 'multi_filter'.'/filters/pre_filter.php');
- 
-//Load the page class
-//AutoLoader::addFile('PageHello', CORE_ROOT.'/plugins/'.'hello_world'.'/behaviours/hello_behaviour.php');
+//Filter::add("pre_filter", 'multi_filter'.'/filters/pre_filter.php');
  
 ?>
