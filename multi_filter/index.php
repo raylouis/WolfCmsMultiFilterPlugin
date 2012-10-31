@@ -14,6 +14,8 @@ Plugin::setInfos(array(
     'type' => 'both'
 ));
 
+Plugin::addController('multi_filter','MultiFilter', 'administrator');
+
 //The filter
 Filter::add("multi_filter", 'multi_filter'.'/filters/multi_filter.php');
 //Filter::add("pre_filter", 'multi_filter'.'/filters/pre_filter.php');
